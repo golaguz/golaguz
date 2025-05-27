@@ -119,6 +119,20 @@
       media="all"
       onerror="this.loaderr='y';"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F218N612D3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-F218N612D3');
+    </script>
     <script
       nomodule
       src="js/tilda-polyfill-1.0.min.js"
